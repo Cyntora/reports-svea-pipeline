@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Svea Pipeline - Rapport april 2026</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
+  <link rel="stylesheet" href="../assets/cyntora-reports.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="../assets/cyntora-charts.js" defer></script>
+  <script src="../assets/cyntora-reports.js" defer></script>
+</head>
+<body>
+
+<nav class="report-nav" data-section-nav>
+  <div class="report-nav__inner">
+    <div class="report-nav__group">
+      <label for="section-jump">Sektion:</label>
+      <select id="section-jump" data-section-jump>
+        <option value="">Översikt</option>
+      </select>
+    </div>
+    <div class="report-nav__group">
+      <label for="period">Period:</label>
+      <select id="period" data-period-switcher data-current="2026-04" data-index-url="index.json" disabled>
+        <option value="2026-04.html" selected>April 2026</option>
+      </select>
+    </div>
+  </div>
+</nav>
+
+
+<section class="page cover">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <h1>Svea Pipeline - Detaljerad statistik</h1>
+  <p class="month">April 2026</p>
+
+
+  <div class="footer">
+<div class="property">Svea Pipeline - GA4</div>  </div>
+</section>
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Svea Pipeline</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div><div class="summary-block">
+  <h2>Sammanfattning av månaden</h2>
+  <p>April 2026 innebar totalt 74 besokare och 85 sessioner pa sveapipeline.se, vilket ar -34,5 % farre anvandare jamfort med april 2025. En viktig kontext ar att Google Ads-kampanjen inte var aktiv i april 2025, vilket innebar att trafiken da uteslutande kom fran organiska och direkta kallor - i april 2026 stod betald sokning for 42 av 74 anvandare. Google Sokkonsol visade samtidigt en positiv trend: 2 503 visningar, vilket ar +27,8 % fler an foregaende ar, och genomsnittspositionen forbattrades fran runt 19 till 13,0. Google Ads-kampanjen genererade 96 klick till en kostnad av 1 993 kr, med 1 registrerad konvertering.</p>
+</div></section>
+
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Svea Pipeline</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div>  <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/ga4.svg" alt="">    <span>Google Analytics 4</span>
+  </div>
+
+
+    <div class="band">Overview</div>
+<div class="card-grid card-grid--asym"><div class="card card--icon"><img src="../assets/icons/ga4.svg" alt="GA4"></div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+<span class="value">74</span>        <span class="trend trend--down">34%</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-users-1" data-cyntora='{"kind": "sparkline", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [6, 5, 2, 6, 2, 2, 6, 2, 3, 5, 1, 1, 3, 3, 2, 1, 3, 2, 2, 2, 5, 2, 2, 1, 3, 4, 2, 2]}, {"color": "#b9d2cf", "label": "April 2025", "values": [1, 3, 1, 7, 1, 1, 3, 1, 6, 7, 4, 1, 7, 3, 4, 3, 2, 25, 2, 1, 4, 2, 6, 3, 6, 3, 8, 6, 4]}]}'></canvas>
+  </div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/ga4.svg" alt="">      Bounce Rate
+    </div>
+      <span class="trend trend--down">28%</span>
+  </div>
+    <div class="card__value card__value--big">43.53%</div>
+</div></div>
+<div class="card-grid"><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+    </span>
+  </div>
+
+  <div class="donut-row">
+    <div class="chart-wrap chart-wrap--short" style="position: relative;">
+      <canvas id="ga4-donut-2" data-cyntora='{"colors": ["#4285F4", "#34A853", "#FBBC04", "#EA4335", "#AB47BC", "#00ACC1", "#FF7043", "#9E9E9E", "#7E57C2", "#26A69A"], "kind": "donut", "labels": ["Paid Search", "Direct", "Organic Search", "Organic Social"], "values": [42.0, 15.0, 13.0, 4.0]}'></canvas>
+      <div style="
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); text-align: center;">
+        <div style="font-size: 18px; font-weight: 700;">74</div>
+<div style="font-size: 10px; color: #9a9a9a;">Total Users</div>      </div>
+    </div>
+    <div class="legend">
+      <div class="row">
+        <span class="swatch" style="background: #4285F4;"></span>
+        <span class="name">Paid Search</span>
+        <span class="value">42</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #34A853;"></span>
+        <span class="name">Direct</span>
+        <span class="value">15</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FBBC04;"></span>
+        <span class="name">Organic Search</span>
+        <span class="value">13</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #EA4335;"></span>
+        <span class="name">Organic Social</span>
+        <span class="value">4</span>
+      </div>
+    </div>
+  </div>
+</div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Average Engagement Time Per Session</span>
+    <span class="right">
+<span class="value">00:02:11</span>    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="ga4-eng-3" data-cyntora='{"format": "duration", "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [214.9, 22.9, 88.9, 331.3, 114.1, 0.0, 27.4, 3.8, 22.1, 14.6, 11.5, 0.0, 231.9, 220.2, 260.0, 0.0, 369.5, 0.9, 7.8, 145.0, 18.7, 1223.4, 238.3, 23.8, 7.9, 28.7, 36.8, 30.8]}, {"color": "#b9d2cf", "label": "April 2025", "values": [46.6, 8.6, 0.0, 164.6, 0.0, 0.0, 26.6, 0.0, 20.9, 149.5, 273.3, 0.0, 220.6, 61.4, 32.0, 3.8, 0.0, 13.2, 0.0, 926.3, 32.1, 31.7, 79.2, 187.1, 1.8, 6.4, 0.0, 261.3]}]}'></canvas>
+  </div>
+</div></div>
+<div class="card card--note"><div class="card__head"><span class="label"><img src="../assets/icons/ga4.svg" alt="GA4">Conversions</span></div><div class="card__value card__value--big">0</div><div class="card__note">Inga konverteringar är registrerade i GA4 för perioden. Vi sätter upp konverteringsspårning så att kommande rapporter kan visa attribuering per kanal.</div></div>
+<div class="band">Pages</div>
+<div class="data-table-wrap">
+<div class="head">Visar 8 av 8 sidor</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>SIDA</th>
+<th>SESSIONS</th><th>TOTAL USERS</th><th>USER ENGAGEMENT</th><th>VIEWS</th><th>EVENT COUNT</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>/</td>
+          <td>
+            37
+          </td>
+          <td>
+            36
+          </td>
+          <td>
+            00:22:25
+          </td>
+          <td>
+            67
+          </td>
+          <td>
+            267
+          </td>
+      </tr>
+      <tr>
+        <td>/vara-tjanster</td>
+          <td>
+            29
+          </td>
+          <td>
+            25
+          </td>
+          <td>
+            00:10:21
+          </td>
+          <td>
+            49
+          </td>
+          <td>
+            191
+          </td>
+      </tr>
+      <tr>
+        <td>/stumsvetsning-av-pe-ror</td>
+          <td>
+            5
+          </td>
+          <td>
+            5
+          </td>
+          <td>
+            00:08:22
+          </td>
+          <td>
+            5
+          </td>
+          <td>
+            27
+          </td>
+      </tr>
+      <tr>
+        <td>/kontakt</td>
+          <td>
+            4
+          </td>
+          <td>
+            3
+          </td>
+          <td>
+            00:09:04
+          </td>
+          <td>
+            11
+          </td>
+          <td>
+            32
+          </td>
+      </tr>
+      <tr>
+        <td>/siltgardin</td>
+          <td>
+            3
+          </td>
+          <td>
+            3
+          </td>
+          <td>
+            00:08:19
+          </td>
+          <td>
+            5
+          </td>
+          <td>
+            27
+          </td>
+      </tr>
+      <tr>
+        <td>/projekt/20km-profuse-stumsvetsning-pa-gotland</td>
+          <td>
+            2
+          </td>
+          <td>
+            2
+          </td>
+          <td>
+            00:00:00
+          </td>
+          <td>
+            2
+          </td>
+          <td>
+            6
+          </td>
+      </tr>
+      <tr>
+        <td>/projekt/stumsvetsning-i-norge-skreia</td>
+          <td>
+            1
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            00:00:00
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            3
+          </td>
+      </tr>
+      <tr>
+        <td>/projekt/underhallsarbete-karlskrona-marinbas</td>
+          <td>
+            1
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            00:00:37
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            5
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+<div class="takeaway">74 anvandare i april - betald sökning stod för 57 % av trafiken, men engagemangstiden på 131 sekunder i genomsnitt tyder på att besökarna som faktiskt klickar bläddrar igenom webbplatsen.</div>
+</div>
+</section>
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Svea Pipeline</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div>  <div class="section" id="section-gsc" data-section-id="gsc" data-section-title="Google Search Console">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/gsc.svg" alt="">    <span>Google Search Console</span>
+  </div>
+
+
+    <div class="band">Organic traffic</div>
+<div class="card-grid card-grid--asym"><div class="card card--icon"><img src="../assets/icons/gsc.svg" alt="Search Console"></div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/gsc.svg" alt="">      Avg Position
+    </div>
+      <span class="trend trend--down">47%</span>
+  </div>
+    <div class="card__value card__value--big">13.0</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/gsc.svg" alt="">      Clicks
+    </div>
+      <span class="trend trend--down">19%</span>
+  </div>
+    <div class="card__value card__value--big">30</div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Impressions</span>
+    <span class="right">
+<span class="value">2 503</span>        <span class="trend trend--up">28%</span>
+    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="gsc-imp-4" data-cyntora='{"kind": "line", "labels": ["04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30"], "legend": true, "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [116, 72, 59, 67, 68, 61, 95, 98, 105, 69, 72, 59, 77, 85, 95, 78, 100, 56, 67, 107, 78, 113, 95, 79, 75, 69, 94, 140, 82, 72]}, {"color": "#b9d2cf", "label": "April 2025", "values": [75, 61, 92, 67, 50, 68, 61, 63, 88, 73, 66, 67, 55, 79, 86, 63, 43, 67, 42, 44, 52, 75, 63, 88, 50, 53, 64, 84, 60, 59]}]}'></canvas>
+  </div>
+</div>
+
+<div class="band">Keywords</div>
+<div class="data-table-wrap">
+<div class="head">Showing 10 of 20 Rows</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>KEYWORD</th>
+<th>CLICKS</th><th>IMPRESSIONS</th><th>AVG POSITION</th><th>CTR</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>siltgardin</td>
+          <td>
+            0
+          </td>
+          <td>
+            356
+          </td>
+          <td>
+            23.69
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>pe svetsning</td>
+          <td>
+            0
+          </td>
+          <td>
+            245
+          </td>
+          <td>
+            10.04
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>stumsvetsning</td>
+          <td>
+            1
+          </td>
+          <td>
+            209
+          </td>
+          <td>
+            7.75
+          </td>
+          <td>
+            0.48%
+          </td>
+      </tr>
+      <tr>
+        <td>elektrosvetsning</td>
+          <td>
+            0
+          </td>
+          <td>
+            95
+          </td>
+          <td>
+            8.88
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>pe-svetsare</td>
+          <td>
+            0
+          </td>
+          <td>
+            86
+          </td>
+          <td>
+            5.13
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>extrudersvetsning</td>
+          <td>
+            0
+          </td>
+          <td>
+            85
+          </td>
+          <td>
+            8.25
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>miljogardin</td>
+          <td>
+            0
+          </td>
+          <td>
+            67
+          </td>
+          <td>
+            11.06
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>pe-svetsning</td>
+          <td>
+            0
+          </td>
+          <td>
+            58
+          </td>
+          <td>
+            5.26
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>stumsvetsning av pe ror</td>
+          <td>
+            0
+          </td>
+          <td>
+            55
+          </td>
+          <td>
+            8.65
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+      <tr>
+        <td>tillverkning miljogardin</td>
+          <td>
+            0
+          </td>
+          <td>
+            45
+          </td>
+          <td>
+            2.76
+          </td>
+          <td>
+            0.00%
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="takeaway">Visningarna ökade med +27,8 % och positionen förbättrades till 13,0 - riktningen är rätt, men CTR på 1,2 % visar att klickpotential finns att hämta när positionerna klättrar förbi topp 10.</div>
+</div>
+</section>
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Svea Pipeline</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div>  <div class="section" id="section-google_ads" data-section-id="google_ads" data-section-title="Google Ads">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/google-ads.svg" alt="">    <span>Google Ads</span>
+  </div>
+
+
+    <div class="band">SEM</div><div class="source-attr">Spårat konverteringsvärde rapporteras av Google Ads och kan överlappa med faktiska intäkter i WooCommerce/Shopify-sektionen. Använd Konverteringar och Kostnad som primära indikatorer.</div>
+<div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+  </div>
+    <div class="card__value card__value--big">1</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Spårat konv.värde
+    </div>
+  </div>
+    <div class="card__value card__value--big">kr0.00</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Spårad ROAS
+    </div>
+  </div>
+    <div class="card__value card__value--big">0.00</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+  </div>
+    <div class="card__value card__value--big">kr1.99 K</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+  </div>
+    <div class="card__value card__value--big">1 587</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+  </div>
+    <div class="card__value card__value--big">96</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+  </div>
+    <div class="card__value card__value--big">6.05%</div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Kostnad vs spårat konv.värde</span>
+    <span class="right">
+    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="ads-spend-5" data-cyntora='{"currency": "SEK", "dual_axis": true, "format": "currency", "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "currency": "SEK", "format": "currency", "label": "Kostnad", "values": [74.41, 79.04, 29.75, 0.0, 109.48, 131.2, 77.51, 99.49, 98.17, 20.52, 49.11, 14.36, 126.66, 93.89, 79.65, 9.21, 89.88, 0.0, 14.65, 131.76, 80.4, 107.0, 70.51, 81.49, 0.0, 73.22, 99.64, 59.36, 62.52, 29.7]}, {"color": "#b9d2cf", "currency": "SEK", "format": "currency", "label": "Sp\u00e5rat konv.v\u00e4rde", "values": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}]}'></canvas>
+  </div>
+</div>
+<div class="band">Top Campaigns</div>
+<div class="data-table-wrap">
+<div class="head">Showing 1 of 1 Rows</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>KAMPANJ</th>
+<th>KOSTNAD</th><th>KONVERTERINGAR</th><th>SPÅRAT KONV.VÄRDE</th><th>ROAS</th><th>EXPONERINGAR</th><th>KLICK</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>(okänd kampanj)</td>
+          <td>
+            kr1.99 K
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            kr0.00
+          </td>
+          <td>
+            0,00
+          </td>
+          <td>
+            1 587
+          </td>
+          <td>
+            96
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="takeaway">1 993 kr i spend, 96 klick och 1 konvertering under april - konverteringsvärde saknas i kontot, vilket gör det svårt att bedöma avkastningen; åtgärd planeras i maj.</div>
+</div>
+</section>
+
+<section class="page">
+<div class="page-header">
+  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
+  <div class="meta">
+    <div class="client">Svea Pipeline</div>
+    <div>April 2026</div>
+    <div>Previous: April 2025</div>
+  </div>
+</div><div class="next-steps">
+  <h2>Vad vi gör härnäst</h2>
+  <ul>
+      <li>Vi kommer att analysera vilka sökord som driver visningar utan klick i Google Sök - särskilt stumsvetsning, pe svetsning och siltgardin - och prioritera dessa i on-page-arbetet för maj.</li>
+      <li>Vi kommer att granska rubrikerna och metabeskrivningarna på de sidor som rankar på position 10-20 för att förbättra klickfrekvensen i organisk sökning.</li>
+      <li>Vi kommer att se över konverteringsspårningen i Google Ads så att formulärinlämningar eller telefonklick registreras med ett mätvärde, vilket ger tydligare underlag för kampanjoptimering.</li>
+      <li>Vi kommer att följa upp Google Ads-budgetens fördelning per dag och justera budschema för att undvika de dagarna med 0 kr i spend (4, 18 och 25 april) om dessa inte är planerade pauser.</li>
+  </ul>
+</div>
+
+</section>
+
+
+</body>
+</html>

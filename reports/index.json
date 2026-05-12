@@ -1,0 +1,11 @@
+{
+  "client_id": "svea-pipeline",
+  "client_display_name": "Svea Pipeline",
+  "reports": [
+    {
+      "file": "2026-04.html",
+      "month": "2026-04",
+      "label": "April 2026"
+    }
+  ]
+}
